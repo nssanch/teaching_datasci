@@ -1,26 +1,20 @@
-# Three Ways to the Game of Life
-## The Second Way
+# Ways to the Game of Life -- The Third Way
 
-Our first attempt went well-enough that we learned
-something and can do better next time. 
+*Here we continue upon our dual-purpose journey: to learn Pyton by implementing
+a version of Conway's Game of Life. Here we assume you have completed the
+previous two notebooks to your satisfaction.*
 
-Previously we constructed a function, and while I am
-sure you can think of many ways it could be improved, we should 
-ensure we are using the correct tooling first.
+> Standing on the shoulders of giants
 
-Consider our steps of planning and doing:
+It may have occurred to you that the number of functions and data models
+contained in Python and the standard library are not quite enough for your
+adventurous goals. So as in every field of science we scramble up to peer
+out from the shoulders of the giants that came before us.
 
-1. Understand your computational goal to the degree that it could
-    theoretically be done 'by hand'.
-2. Envision a mapping of your 'by hand' method to the types,
-    functions and constants available.
-3. Iteratively plan and program as you learn or encounter issues.
-    + Consider builtins, then the standard library, then the
-      numFocus libraries, then other sources.
-
-I would argue all we have really done are steps 1
-and 2. With a little more programming experience we probably
-would have seen the trouble on the edge coming.
+Were we computer scientists we would be much more interested in the
+implementation of discrete mathematics. Since we are trying to be data
+scientists we shall have to trust in those implementations rather than
+spend our lives constructing our own.
 
 Predominately you will find yourself using `numpy` and `pandas`,
 and perhaps `xarray` for storing data and the like. So we will
@@ -28,18 +22,48 @@ approach step 3 and consider the object types and functions
 made available from `numpy`, the others will wait until another
 lesson.
 
-How does one know what can be done with `numpy`? You read the
-documentation. Now, I know that code documentation is not
-welcoming towards newcomers; often it assumes knowledge you
-may not yet have. I am also not telling you to abandon your
-queries into stackoverflow or the like. Rather; the only way
-to break out of endless stackoverflow or google queries as
-to "how do I X?" is to be able to read and understand
-documentation and source code. As our teaching philosophy
-is to learn by doing that is exactly what we should do.
 
-Advice for future you can be put aside for now. Immediately 
-applicable advice is as follows:
+## Overview
+
+Here we take our first dip into an 'unofficial' package. One not a part
+of the standard library. We implement the Game of Life again, this time
+using the `numpy.ndarray` to model the grid.
+
+Our learning goal here is the inclusion of external packages, along with
+their objects and functions into our ***learning by doing*** process.
+
+
+### Lab Overview
+
+The flow for this lab is a little different. As stated, our true goal is
+to get you comfortable using a package and its included documentation.
+
+We first examine the types of objects made available in that package and
+ask if any of them are suitable for our use. Then we do the same for 
+methods of those objects, as as functions provided by the package.
+Hopefully you can at least inform your queries with the correct names of 
+objects and functions.
+
+
+### Lab Objectives
+
+Our learning goals for this notebook:
++ Reinforce basic Python syntax, builtin functions, types and constants.
++ Reinforce self-learning methods and resources.
++ Introduce the `numpy` package and the `numpy.ndarray` object.
+
+
+## Lab
+
+As in the previous lessons you should restrict yourself from using just anything.
+For this lesson we are only considering the use of:
+
++ Python and included functions, types and constants.
++ The standard library.
++ The `numpy` package.
+
+
+### Task: Learn some `numpy`
 
 + Go to the `numpy` [documentation](https://numpy.org/doc/stable/)
   and skim each section.
@@ -57,21 +81,10 @@ applicable advice is as follows:
     ```
     x.sum()  # An example.
     ```
-+ Go through the [API reference](https://numpy.org/doc/stable/reference/index.html). This is the exhaustive list of stuff contained within `numpy`.
++ Skim through the [API reference](https://numpy.org/doc/stable/reference/index.html). 
+  This is the exhaustive list of stuff contained within `numpy`.
 
 
-I hope you can see a plan emerging for applying a given
-package to a problem you are working on. We first examine
-the types of objects made available in that package and
-ask if any of them are suitable for our use. Then we do
-the same for methods of those objects, as as functions
-provided by the package.
+### Task: Implement the Game of Life using `numpy`
 
-Hopefully you can at least inform your queries with the
-correct names of objects and functions -- which should 
-help a great deal.
-
-+ [ ] Create the Game of Life (again) this time solve
-  the edge case to some degree. Use `numpy`.
-+ [ ] Write a stackoverflow question of an issue you
-  run into. Provide an answer as well (if you can). 
++ [ ] Create the Game of Life (again). Use `numpy`.

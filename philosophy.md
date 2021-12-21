@@ -31,6 +31,14 @@ hypothesis.
    and constants available.
 3. Iteratively plan and program as you learn or encounter issues.
 
+### Understand *Where* You Are
+
+Where is your understanding?
+
+Narrative vs understanding.
+Map of concepts and adjacent fields
+
+
 ## Class Intro Outline
 
 + What class is this?
