@@ -124,9 +124,10 @@ git clone https://github.com/biggstd/teaching_datasci.git
 
 ### Task: Implement the Game of Life
 
-1. Hand-draw a sketch of the solution you plan to implement.
+1. Hand-draw a sketch of the solution you plan to implement, make sure your approach to 
+   solving the edge cases is mentioned in your sketch.
    + [ ] Save to your data folder.
-2. Using this notebook as a base:
+3. Using this notebook as a base:
    + [ ] Save a notebook in your FOLDER that has a implementation of the game of life that:
      + [ ] runs a known repeating pattern.
      + [ ] runs for (at least) 10 iterations.
