@@ -124,7 +124,10 @@ git clone https://github.com/biggstd/teaching_datasci.git
 
 ### Task: Implement the Game of Life
 
-1. Hand-draw a sketch of the solution you plan to implement, make sure your approach to 
+1. Create directories:
+   + [ ] Create a folder in the `homework` director. The title should be your last name.
+   + [ ] Create a folder within that directory named `gol_1`, save your results therein.
+2. Hand-draw a sketch of the solution you plan to implement, make sure your approach to 
    solving the edge cases is mentioned in your sketch.
    + [ ] Save to your data folder.
 3. Using this notebook as a base:
