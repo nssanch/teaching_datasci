@@ -41,3 +41,4 @@ implied by the code given in the notebook.
 
 + [ ] Implement the Game of Life using a convolution.
   + The real goal is in the learning.
+  + [ ] 

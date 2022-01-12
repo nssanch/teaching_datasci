@@ -1,6 +1,6 @@
 # Ways to the Game of Life -- The Third Way
 
-*Here we continue upon our dual-purpose journey: to learn Pyton by implementing
+*Here we continue upon our dual-purpose journey: to learn Python by implementing
 a version of Conway's Game of Life. Here we assume you have completed the
 previous two notebooks to your satisfaction.*
 
@@ -65,6 +65,7 @@ For this lesson we are only considering the use of:
 
 ### Task: Learn some `numpy`
 
++ You need not submit any files for this task.
 + Go to the `numpy` [documentation](https://numpy.org/doc/stable/)
   and skim each section.
 + Look at a tutorial from the people who wrote `numpy`.

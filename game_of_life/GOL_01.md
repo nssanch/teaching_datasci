@@ -18,8 +18,7 @@ You should now see a `teaching_datasci` folder, and a `game_of_life` folder with
 
 ## Overview
 
-Here we are going to learn core components of Python by implementing Conway's game of life. You should then read all about the Game of Life at
-[Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+Here we are going to learn core components of Python by implementing Conway's game of life. You should read all about the Game of Life at [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 
 ### Lab Overview
@@ -86,25 +85,23 @@ of Python.***
   + False
 
 
-
-
-
 ### Task: Implement the Game of Life
 
 1. Create directories:
    + [ ] Create a folder in the `homework` director. The title should be your last name.
-   + [ ] Create a folder within that directory named `gol_1`, save your results therein.
-2. Hand-draw a sketch of the solution you plan to implement, make sure your approach to 
+   + [ ] Create a folder within that directory named `{LAST_NAME}_GOL`, save your results therein.
+2. Create a sketch of the solution you plan to implement, make sure your approach to 
    solving the edge cases is mentioned in your sketch.
    + [ ] Save to your data folder.
 3. Using this notebook as a base:
    + [ ] Save a notebook in your FOLDER that has a implementation of the game of life that:
+     + [ ] uses markdown to display your sketched plan.
      + [ ] runs a known repeating pattern.
      + [ ] runs for (at least) 10 iterations.
      + You should have a clear idea as to if the output is correct based on the 
        pattern you choose.
    + [ ] Come up with a work-around for dealing with cells on the edge of the grid.
      + Implement a solution that is *practical for you*, regardless of how 'poorly'
-       the simulation *runs* around the edges.
+       the simulation *runs*.
      + This means artifacts or violations of the rules are fine, so long as the code
        it self *runs*. We will improve upon our code in further lessons.
