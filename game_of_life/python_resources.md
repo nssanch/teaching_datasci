@@ -12,7 +12,9 @@
     
 + [Official Audio/Video Instructional Materials](https://www.python.org/doc/av/)
     + Media tutorials.
-    
+
++ [Best Practices]()
++ [PEP8 Style Guide]()
  
 ## Source of Example Code
 

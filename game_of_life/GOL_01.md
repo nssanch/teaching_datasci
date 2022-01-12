@@ -2,14 +2,23 @@
 
 > For the things we have to learn before we can do them, we learn by doing them.
 
-*Here we set out to create Conway's Game of Life in Python, our goal being
-to learn Python along the way. No previous programming knowledge is needed
-on the part of the reader; only a willingness to learn by (failing) doing.*
+*Here we set out to create Conway's Game of Life in Python, our goal being to 
+learn Python along the way. No previous programming knowledge is needed on the
+part of the reader; only a willingness to learn by (failing) doing.*
+
+Before we start this first lesson you will want to save a copy of the source notebooks to your private persistent storage space in `~/Desktop/classroom/myfiles`. To do so, start a terminal and enter the following commands:
+
+```bash
+cd ~/Desktop/classroom/myfiles  # Change directory.
+git clone https://github.com/biggstd/teaching_datasci.git  # Use git to download a  copy of a remote directory.
+```
+
+You should now see a `teaching_datasci` folder, and a `game_of_life` folder within. Open the first notebook and continue.
 
 
 ## Overview
 
-You should first read all about the Game of Life at
+Here we are going to learn core components of Python by implementing Conway's game of life. You should then read all about the Game of Life at
 [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 
@@ -24,41 +33,6 @@ You should first read all about the Game of Life at
 3. Attempt to implement your plan.
 4. Assess your implementation as you work, and be prepared to return
    to a previous step.
-
-To expand upon each step:
-
-1. A handwritten solution.
-    + Programming does not make understanding a concept easier, if
-      anything it makes a given problem appear more complex. For both
-      learning and scientific purposes it is vital that you have a
-      strong conceptual foundation as to what you want to implement.
-    + **Write it down**. Abandon the limitations of linear text and
-      sketch out your solution by hand. Success will come faster and
-      failure will be more obvious.
-2. Map your solution to a program.
-    + Here is where you should try to envision:
-        + How your data should be modeled.
-        + What steps should be functions, and the inputs and outputs
-          of those functions. How do you know what stuff is available?
-          In these early lessons I will give you the tools you need,
-          but in practice you should explore pre-existing code in this
-          order:
-        + Order of exploration:
-            1. Builtins
-            2. Standard Library
-            3. NumFocus
-            4. Internet at Large
-3. Attempt to implement your plan.
-    + Just try to do it! Expect it to not work a great number of times
-      while you are learning.
-    + Resist the temptation to start here, or at the internet at large.
-4. Assess, if you:
-    + Notice a function growing too complex (~15+ lines of code),
-      consider splitting it up (go back a planning step).
-    + Spend a great deal of time on a singular problem (30+ min),
-      begin writing a request for help. Preparing to speak to
-      another person often primes you to self-solve, and if that
-      fails you have your help request prepared.
 
       
 ### Game of Life Overview
@@ -81,8 +55,8 @@ Our learning goals for this notebook:
 
 ## Lab
 
-For this lesson you should restrict yourself to the following components
-of Python.
+***For this lesson you should restrict yourself to the following components
+of Python.***
 
 + [Python](https://docs.python.org/3/reference/index.html#reference-index)
   + This reference document is too large to be useful beginners. I include it
@@ -99,8 +73,10 @@ of Python.
     + `dir()`
     + `type()`
     + `sum()`
+    + `len()`
     + `print()`
     + `range()`
+    + `enumerate()`
 + [types](https://docs.python.org/3/library/stdtypes.html)
   + integer
   + boolean
@@ -110,16 +86,7 @@ of Python.
   + False
 
 
-### Task: Clone the Source Repository
 
-To start we clone the repository. That is correct, there is a surprise mini-pool
-you are getting pushed into before I push you all the way into the Python pool.
-
-+ [ ] Use the following commands to clone the repository.
-
-```bash
-git clone https://github.com/biggstd/teaching_datasci.git
-```
 
 
 ### Task: Implement the Game of Life

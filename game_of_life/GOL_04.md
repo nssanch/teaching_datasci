@@ -1,8 +1,8 @@
 # Ways to the Game of Life -- The Fourth Way
 
-*Here we continue upon our dual-purpose journey: to learn Pyton by implementing
+*Here we continue upon our dual-purpose journey: to learn Python by implementing
 a version of Conway's Game of Life. Here we assume you have completed the
-previous two notebooks to your satisfaction.*
+previous notebooks to your satisfaction.*
 
 
 ## Overview
@@ -19,16 +19,17 @@ attention to the same things we consider in creating our own code:
 
 ### Lab Overview
 
-Our learning goals for this notebook:
-+ Reinforce a science and mathematics based approach to problem solving.
-+ Introduction to learning new mathematics through code.
+Reconsider the science and mathematics of our approach.
+
 
 
 ### Lab Objectives
 
 Our learning goals for this notebook:
 + Learn and implement a convolution for the Game of Life.
-+ Reinforce and reflect upon our prior implementations.
++ Reinforce a science and mathematics based approach to problem solving.
++ Introduction to learning new mathematics through code.
+
 
 ## Lab
 
