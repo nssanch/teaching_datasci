@@ -1,0 +1,15 @@
+To push  a commit
+
+git add .
+
+git status
+
+git commit -m "message"
+
+git push
+
+
+To Pull
+in github -- fetch upstream -> fetch and merge
+
+
